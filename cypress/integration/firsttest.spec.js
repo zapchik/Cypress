@@ -1,6 +1,6 @@
 /// <reference types="cypress" />
-describe('example to-do app', () => {
-    it('', () => {
+describe('Conduit test', () => {
+    it('Conduit log in', () => {
         cy.visit('https://cirosantilli-realworld-next.herokuapp.com/');
         cy.get(':nth-child(2) > .nav-link').click();
         cy.get(':nth-child(1) > .form-control').type('zapchik@meta.ua');
